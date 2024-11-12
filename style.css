@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+    color: burlywood;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.bbtx {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgba(135, 92, 36, 0.438);
+    border: 2px solid white;
+}
+.bbtx:nth-child(2) {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgba(47, 59, 151, 0.611);
+    border: 2px solid white;
+}
+
+.bbtx:hover {
+    background-color: rgba(255, 255, 255, 0.742);
+    color: #000000;
+}
+
+body {
+    --sb-track-color: #000000;
+    --sb-thumb-color: #000000;
+    --sb-size: 12px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 0px;
+    border-left: .5px solid #ffffff;
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 3px;
+    border: .5px solid #ffffff;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
+
+.baa {
+    /* border: 4px solid red; */
+}
+
+.bnn {
+    /* border: 4px solid rgb(13, 0, 255); */
+}
+
+.bss {
+    border: 4px solid rgb(255, 0, 170);
+}
+
+.bgg {
+    border: 4px solid rgb(60, 255, 0);
+}
+
+
+.ttx p {
+    font-size: 90px;
+}
+
+.ttx h1 {
+    font-size: 90px;
+    font-weight: bolder;
+}
+
+.ttx p:nth-child(3) {
+    width: 500px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.s-text {
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.ttx-two h1 {
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+.ttx-two p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.ttx-three p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.ttx-four h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.ttx-four i {
+    font-size: 46px;
+}
+
+.ttx-four p {
+    width: 330px;
+    font-size: 17px;
+    line-height: 29px;
+}
+
+
+
+
+.card-ttx span {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-ttx h1 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-ttx p {
+    width: 290px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 29px;
+    color: white;
+}
+
+.for-ttx h1 {
+    font-size: 24px;
+}
+
+.t-hov {
+    opacity: 0;
+    z-index: -1;
+    transition: .6s ease-in-out;
+}
+
+.main-hov:hover .t-hov {
+    opacity: 1;
+    z-index: 111;
+    transition: .6s ease-in-out;
+}
+
+.main-hov:hover .i-hov {
+    scale: 1.3;
+    rotate: 10deg;
+    transition: .6s ease-in-out;
+}
+
+
+.t-hov span {
+    font-size: 30px;
+}
+
+
+
+.box-two p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.box-two span {
+    font-size: 29px;
+    text-align: center;
+}
+
+
+.a-wow {
+    width: 800px;
+    text-align: center;
+}
+
+
+
+.left-card {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 4px solid blue; */
+}
+
+.img-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('69-edited.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: start;
+    background-attachment: fixed;
+}
+
+.left-card button {
+    padding: 20px 30px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.ttx-six h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ttx-six p {
+    font-size: 13px;
+}
+
+
+.ani-one {
+    height: 400px;
+    animation-name: ani-one;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.ani-one::before {
+    content: '';
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    /* border: 4px solid blue; */
+    background-color: rgba(0, 0, 0, 0.661);
+}
+
+@keyframes ani-one {
+    0% {
+        background-image: url('b-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    50% {
+        background-image: url('b-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background-image: url('b-3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/*    2      */
+
+.ani-two {
+    animation-name: ani-one;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.ani-two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.661);
+}
+
+@keyframes ani-one {
+    0% {
+        background-image: url('b-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    50% {
+        background-image: url('b-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background-image: url('b-3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+
+
+
+
+
+.kk-hov {
+    opacity: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.584);
+    transition: .5s ease-in-out;
+
+}
+
+.work-hov:hover .kk-hov {
+    opacity: 1;
+    z-index: 11;
+    transition: .5s ease-in-out;
+
+}
+
+.work-hov:hover .vv-hov {
+    scale: 1.4;
+    rotate: -20deg;
+    transition: .5s ease-in-out;
+}
+
+.work-hov h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btx h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.btx p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ntx h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.ntx span {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.bbg h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.bbg p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/*  propperty */
+
+@property --speed {
+    syntax: "<integer>";
+    initial-value: 240;
+    inherits: false;
+}
+
+.tenth-con:hover .h11 {
+    animation: sup-tex .7s 1 alternate ease-in-out;
+    counter-reset: sup-tex var(--speed);
+}
+
+.h11::after {
+    content: counter(sup-tex);
+}
+
+@keyframes sup-tex {
+    0% {
+        --speed: 0;
+    }
+
+    100% {
+        --speed: 240;
+    }
+}
+
+
+@property --sec-hov {
+    syntax: "<integer>";
+    initial-value: 140;
+    inherits: false;
+}
+
+.tenth-con:hover .h22 {
+    animation: sup .7s 1 alternate ease-in-out;
+    counter-reset: sup var(--sec-hov);
+}
+
+.h22::after {
+    content: counter(sup);
+}
+
+@keyframes sup {
+    0% {
+        --sec-hov: 0;
+    }
+
+    100% {
+        --sec-hov: 140;
+    }
+}
+
+
+@property --sup-three {
+    syntax: "<integer>";
+    initial-value: 3469;
+    inherits: false;
+}
+
+.tenth-con:hover .h33 {
+    animation: ddlj .7s 1 alternate ease-in-out;
+    counter-reset: ddlj var(--sup-three);
+}
+
+.h33::after {
+    content: counter(ddlj);
+}
+
+@keyframes ddlj {
+    0% {
+        --sup-three: 0;
+    }
+
+    100% {
+        --sup-three: 3459;
+    }
+}
+
+@property --spd {
+    syntax: "<integer>";
+    initial-value: 7;
+    inherits: false;
+}
+
+.tenth-con:hover .h44 {
+    animation: karj .7s 1 alternate ease-in-out;
+    counter-reset: karj var(--spd);
+}
+
+.h44::after {
+    content: counter(karj);
+}
+
+@keyframes karj {
+    0% {
+        --spd: 0;
+    }
+
+    100% {
+        --spd: 7;
+    }
+}
+
+
+.bob h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bob p {
+    font-size: 17px;
+    color: white;
+}
+
+
+.left-card span {
+    font-size: 33px;
+}
+
+.right-card {
+    display: flex;
+    position: relative;
+}
+
+.right-card input::placeholder {
+    color: white;
+    padding: 20px;
+    display: flex;
+}
+
+.on-in::placeholder {
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.right-card button {
+    padding: 10px 15px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.e-ttx h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.e-ttx p {
+    font-size: 15px;
+}
+
+.e-ttx span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.goldy {
+    color: rgb(245, 171, 110);
+}
+
+
+
+/*   lllll    */
+
+.main-line {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    transition: .9s ease-in-out;
+}
+
+.line-a {
+    width: 170px;
+    height: 23px;
+    background-color: rgba(6, 6, 50, 0.613);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-a {
+    width: 250px;
+}
+
+.line-b {
+    width: 100%;
+    height: 23px;
+    position: absolute;
+    background-color: rgba(91, 66, 39, 0.776);
+    font-size: 15px;
+}
+
+/*   2   */
+.line-vv {
+    width: 200px;
+    height: 23px;
+    background-color: rgba(128, 128, 128, 0.509);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-vv {
+    width: 360px;
+}
+
+/*   3   */
+.line-kk {
+    width: 190px;
+    height: 23px;
+    background-color: rgba(6, 6, 50, 0.613);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-kk {
+    width: 420px;
+}
+
+/*   4   */
+.line-dd {
+    width: 150px;
+    height: 23px;
+    background-color: rgba(128, 128, 128, 0.509);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-dd {
+    width: 340px;
+}
+
+/*   5   */
+.line-cc {
+    width: 380px;
+    height: 23px;
+    background-color: rgba(6, 6, 50, 0.613);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-cc {
+    width: 580px;
+}
+
+/*   6  */
+.line-xx {
+    width: 290px;
+    height: 23px;
+    background-color: rgba(128, 128, 128, 0.509);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-xx {
+    width: 480px;
+}
+
+/*   7  */
+.line-zz {
+    width: 240px;
+    height: 23px;
+    background-color: rgba(6, 6, 50, 0.613);
+    font-size: 15px;
+    border-radius: 0 30px 30px 0px;
+    transition: .9s ease-in-out;
+    z-index: 11111111;
+}
+
+.jaju-hov:hover .line-zz {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.line {
+    height: 30px;
+    border: 2px solid red;
+    position: relative;
+    background-color: lightcyan;
+}
+
+.liness {
+    height: 100%;
+    position: absolute;
+    background-color: blue;
+    border: 2px solid rgb(0, 174, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 0;
+}
+
+.liness:hover {
+    animation-name: liness;
+    animation-timing-function: all ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+.line:hover .liness {
+    animation-name: liness;
+    animation-timing-function: all ease-in-out;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+.hehe {
+    position: absolute;
+    left: 10px;
+    z-index: 11;
+}
+
+.hoho {
+    position: absolute;
+    right: 10px;
+    z-index: 11;
+}
+
+@keyframes liness {
+    0% {
+        width: 0%;
+        color: blue;
+        opacity: 1;
+    }
+
+    100% {
+        width: 75%;
+        color: blue;
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,112 @@
+@media only screen and (max-width : 700px) {
+
+
+    .ttx p {
+        font-size: 40px;
+    }
+    
+    .ttx h1 {
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    
+    .ttx p:nth-child(3) {
+        width: 300px;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    .s-text {
+        font-size: 18px;
+        letter-spacing: 5px;
+        font-weight: bold;
+    }
+    
+.ttx-two h1 {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.ttx-two p {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.ttx-three p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.ttx-four h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ttx-four i {
+    font-size: 46px;
+}
+
+.ttx-four p {
+    width: 300px;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.card-ttx h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-ttx p {
+    width: 290px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 29px;
+    color: white;
+}
+
+.box-two p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.bat {
+    width: 100px;
+    font-size: 13px;
+}
+.a-one {
+    width: 360px;
+    font-size: 15px;
+}
+
+.a-vov h1 {
+    font-size: 36px;
+}
+
+.a-wow p {
+    width: 340px;
+    font-size: 14px;
+}
+
+.a-ooo p {
+    width: 340px;
+    font-size: 14px;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.bob h1 {
+    font-size: 40px;
+}
+    
+
+}
